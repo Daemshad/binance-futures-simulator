@@ -15,11 +15,10 @@ run server.py and specify symbol, balance and fee rate.
 interact with server using client.py
 
 ###  import Client and create an instance
-    
-    ''' python
+
     from client import  Client
+    
     c  =  Client()
-    '''
 
 ### get last price
 
