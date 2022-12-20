@@ -1,4 +1,4 @@
-# Binance Futures Realtime Simulator
+# Binance Futures Simulator
 
 This project simulates binance futures trading in realtime using binance market data web socket. you can use this in order to test your strategies before trading with real money.
 
