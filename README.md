@@ -16,46 +16,68 @@ interact with server using client.py
 
 ###  import Client and create an instance
 
+```python
     from client import  Client
     
     c  =  Client()
+```
 
 ### get last price
 
+```python
     c.get_price()
- 
- ### get account info
+```
 
+### get account info
+
+```python
     c.get_account()
+```
 
 ### set leverage
 
+```python
     c.set_leverage(100)
-  
+```
+
 ### submit market order
 
+```python
     c.submit_order(side='buy',  quantity=2)
+```
 
 ### submit limit order
 
+```python
     c.submit_order(side='sell',  quantity=1,  price=16100.0)
+```
 
 ### get orders list
 
+```python
     c.get_orders()
+```
 
 ### cancel order
 
+```python
     c.cancel_order(id=1)
+```
 
 ### get position info
 
+```python
     c.get_position()
+```
 
 ### close your position with market price
 
+```python
     c.close_position()
+```
 
 ### close your position at limit price
 
+```python
     c.close_position(price=18000.0)
+```
