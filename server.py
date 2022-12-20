@@ -348,7 +348,7 @@ class Server:
                 liq = round(self.position.liquidation_price(self.fee_rate), 2)
                 pnl = round(self.position.pnl(price), 2)
                 mar = self.position.margin(price)
-                logging.info(f"{price} - Position: {pos} lev:{lev}X liq:{liq}$ pnl:{pnl}$ margin:{mar}")
+                logging.info(f"{price} - Position: {pos} lev:{lev}X liq:{liq}$ pnl:{pnl}$ margin:{mar}%")
             else:
                 logging.info(f"{price}")
 
