@@ -1,6 +1,17 @@
 # Binance Futures Realtime Simulator
 
-this project simulates binance futures trading in realtime using binance market data web socket. you can use this in order to test your strategies before trading with real money.
+This project simulates binance futures trading in realtime using binance market data web socket. you can use this in order to test your strategies before trading with real money.
+
+### Features
+- Support for all binance markets 
+- Set your desired balance and fee rate
+- Live processing orders with real time prices
+- Set leverage on your position
+- Submit market and limit orders
+- Cancel orders
+- Close your position at market or limit price
+- Pnl and margin calculations
+- Liquidation check for positions
 
 ## Usage
 
