@@ -3,7 +3,11 @@
 this project simulates binance futures trading in realtime using binance market data web socket. you can use this in order to test your strategies before trading with real money.
 
 ## Usage
-  
+
+install requirements
+
+    pip install -r requirements.txt
+ 
 run server.py and specify symbol, balance and fee rate.
 
     python server.py --symbol btcusdt --balance 10000 --fee 0.0004
