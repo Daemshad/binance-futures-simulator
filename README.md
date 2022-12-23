@@ -3,6 +3,7 @@
 This project simulates binance futures trading in realtime using binance market data web socket. you can use this in order to test your strategies before trading with real money.
 
 ### Features
+- Realtime price stream
 - Trade in any market (btcustd, ethusdt, ...)
 - Set your desired balance and fee rate
 - Live processing orders with real time prices
@@ -12,6 +13,7 @@ This project simulates binance futures trading in realtime using binance market 
 - Close your position at market or limit price
 - Pnl and margin calculations
 - Liquidation check for position
+- Json file database
 
 ## Usage
 
