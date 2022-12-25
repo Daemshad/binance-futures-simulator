@@ -4,7 +4,7 @@ This project simulates binance futures trading in realtime using binance market 
 
 ### Features
 - Realtime price stream
-- Trade in any market (btcustd, ethusdt, ...)
+- Trade in any market (e.g. btcusdt)
 - Set your desired balance and fee rate
 - Live processing orders with real time prices
 - Set leverage on your position
